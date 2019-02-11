@@ -1,3 +1,9 @@
+# Fork information
+
+The goal of this fork is to be able to use a GPG key VM instead of an "SSH Vault" to serve a key using the `--export-ssh-key` and `--enable-ssh-support` of gpg2 and gpg-agent respectively.
+
+This should be easily accomplished by changing the bash_profile a bit.
+
 # Qubes Split SSH
 
 These Qubes scripts allow one to keep ssh private keys in a separate VM (an
